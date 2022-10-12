@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: v1.peladonerd.local
+  - host: v1.montesinos.local
     http:
       paths:
       - path: /
@@ -18,7 +18,7 @@ spec:
             port:
               number: 80
         
-  - host: v2.peladonerd.local 
+  - host: v2.montesinos.local 
     http:
       paths:
       - path: /
